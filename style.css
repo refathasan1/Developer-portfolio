@@ -4,15 +4,16 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 30px;
+}
 .blue-color{
     color: blue;
-}
-section{
-    display: flex;
 }
 .half-width{
     width: 50%;
     padding: 2%;
+    
 }
 .link-button{
     text-decoration: none;
@@ -21,4 +22,32 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+.flexible-center{
+    display: flex;
+}
+.red-color{
+    color: red;
+}
+.yollow-color{
+    color: yellow;
+}
+.exoerience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px;
+   
+}
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient blue,cyan;
+    border-image-slice: 1;
+}
+#full-stac{
+    border-left: 7px solid;
+    border-image: linear-gradient blue,cyan;
+    border-image-slice: 1;
 }
